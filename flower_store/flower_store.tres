@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=7 format=3 uid="uid://bx6w7qqq7ofma"]
+[gd_resource type="TileSet" format=3 uid="uid://bx6w7qqq7ofma"]
 
 [ext_resource type="Texture2D" uid="uid://bfxk44a7k8e1h" path="res://flower_store/market_tileset.png" id="1_6f0hy"]
 [ext_resource type="Texture2D" uid="uid://djvq5ot6npueo" path="res://flower_store/door_tiles.png" id="2_dq03g"]

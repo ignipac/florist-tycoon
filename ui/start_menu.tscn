@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://hbyaiwnxm45a"]
+[gd_scene format=3 uid="uid://hbyaiwnxm45a"]
 
 [ext_resource type="Script" uid="uid://clxj183p2rj7" path="res://ui/start_menu.gd" id="1_kw4xl"]
 [ext_resource type="FontFile" uid="uid://dbrqks62utkvv" path="res://shared/fonts/lilita_one_reg.ttf" id="2_iuit4"]
@@ -15,7 +15,7 @@ font = ExtResource("2_iuit4")
 font_size = 64
 font_color = Color(0, 0, 0, 1)
 
-[node name="StartMenu" type="Control"]
+[node name="StartMenu" type="Control" unique_id=1364851677]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -24,7 +24,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_kw4xl")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1313383562]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -33,7 +33,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.705882, 0.972549, 0.784314, 1)
 
-[node name="StartGameButton" type="Button" parent="."]
+[node name="StartGameButton" type="Button" parent="." unique_id=1561584940]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
@@ -50,14 +50,14 @@ grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_iuit4")
 theme_override_font_sizes/font_size = 24
-theme_override_styles/focus = SubResource("StyleBoxFlat_iuit4")
-theme_override_styles/disabled = SubResource("StyleBoxFlat_iuit4")
-theme_override_styles/hover = SubResource("StyleBoxFlat_iuit4")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_iuit4")
 theme_override_styles/normal = SubResource("StyleBoxFlat_iuit4")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_iuit4")
+theme_override_styles/hover = SubResource("StyleBoxFlat_iuit4")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_iuit4")
+theme_override_styles/focus = SubResource("StyleBoxFlat_iuit4")
 text = "Begin"
 
-[node name="Label" type="Label" parent="."]
+[node name="Label" type="Label" parent="." unique_id=696777907]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -70,5 +70,5 @@ offset_right = 202.0
 offset_bottom = -26.5
 grow_horizontal = 2
 grow_vertical = 2
-text = "Grow a Garden"
+text = "Florist Tycoon"
 label_settings = SubResource("LabelSettings_loyqk")

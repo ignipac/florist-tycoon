@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=18 format=3 uid="uid://bep3w6bentpmt"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bep3w6bentpmt"]
 
 [ext_resource type="Texture2D" uid="uid://cnu0jgifvgmhw" path="res://npc/character_sprites/male_034.png" id="1_lywnh"]
 
@@ -81,7 +81,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_aga4t")
 }],
-"loop": true,
+"loop": 1,
 "name": &"move_down",
 "speed": 5.0
 }, {
@@ -98,7 +98,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_k1sdv")
 }],
-"loop": true,
+"loop": 1,
 "name": &"move_left",
 "speed": 5.0
 }, {
@@ -115,7 +115,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5vfr1")
 }],
-"loop": true,
+"loop": 1,
 "name": &"move_right",
 "speed": 5.0
 }, {
@@ -132,7 +132,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ldbg5")
 }],
-"loop": true,
+"loop": 1,
 "name": &"move_up",
 "speed": 5.0
 }]
